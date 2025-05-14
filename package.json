@@ -1,0 +1,26 @@
+{
+  "name": "gemini-ai-api-practice",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdelacruz23/gemini-AI-API-Practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jdelacruz23/gemini-AI-API-Practice/issues"
+  },
+  "homepage": "https://github.com/jdelacruz23/gemini-AI-API-Practice#readme",
+  "description": "",
+  "dependencies": {
+    "@google/genai": "^0.14.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0"
+  }
+}
