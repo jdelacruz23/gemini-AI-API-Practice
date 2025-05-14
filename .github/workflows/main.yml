@@ -1,0 +1,27 @@
+name: Deploy Application
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Checkout the code
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      # Step 2: Set up environment variable for Gemini API key
+      - name: Set up GEMINI_API_KEY
+        run: echo "GEMINI_API_KEY=${{ secrets.GEMINI_API_KEY }}" >> $GITHUB_ENV
+
+      # Step 3: Use the environment variable in your script or deployment step
+      - name: Run script with API key
+        run: |
+          echo "Using Gemini API Key"
+          echo "GEMINI_API_KEY=$GEMINI_API_KEY"
+          # Example command to use the secret (replace with actual script)
+          node your-script.js
