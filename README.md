@@ -1,19 +1,4 @@
-To make it easy for you to copy and paste the GitHub-flavored markdown, follow these simple steps:
 
-### Steps:
-
-1. **Open your repository on GitHub**.
-
-2. **Create or Edit the `README.md` file**:
-
-   * If the file doesn't exist yet, click on the "Add file" button, select "Create new file", and name it `README.md`.
-   * If the file already exists, click on the `README.md` file and then click the pencil icon to edit it.
-
-3. **Copy the Markdown Code**:
-
-   * Copy the following code:
-
-````markdown
 # Gemini AI API Practice
 
 This project demonstrates how to integrate the Gemini AI API with a Node.js backend. It allows you to interact with Gemini API using your own API key.
